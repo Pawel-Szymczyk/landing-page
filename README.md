@@ -1,2 +1,7 @@
 # landing-page
-Universal Landing Page  Responsive landing page with light/dark mode. Built with HTML, CSS, JavaScript.  Live demo: https://...
+Universal Landing Page  
+Responsive landing page with light/dark mode. 
+
+Built with HTML, CSS, JavaScript.  
+
+Live demo: https://...
