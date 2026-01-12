@@ -22,17 +22,17 @@
           @shape: clover 5;
           background: @pick(#475569, #ddd, #1d4ed8); 
           border-radius: 50%; 
-          opacity: @rand(0.2, 0.35); 
-          transform: scale(@r(0.1, 1.2)); 
+          opacity: @rand(0.1, 0.2); 
+          transform: scale(@r(0.1, 0.8)); 
           animation: fall @rand(10s, 60s) linear infinite; 
           animation-delay: 0s; 
           } 
           
           @keyframes fall { 
           0% { transform: translateY(-20vh) translateX(@rand(-20vw, 20vw))
-          scale(@r(0.5, 1.2)); opacity: 0; } 
-          50% { opacity: 1; } 
-          100% { transform: translateY(120vh) translateX(@rand(-30vw, 30vw)) scale(@r(0.5, 1.2));
+          scale(@r(0.1, 0.8)); opacity: 0; } 
+          50% { opacity: 0.3; } 
+          100% { transform: translateY(120vh) translateX(@rand(-30vw, 30vw)) scale(@r(0.1, 0.8));
           opacity: 0; } 
         }
 
@@ -40,17 +40,17 @@
           @shape: clover 3;
           background: @pick(#475569, #e2e8f0, #1d4ed8); 
           border-radius: 40%; 
-          opacity: @rand(0.2, 0.35); 
-          transform: scale(@r(0.1, 0.5)); 
+          opacity: @rand(0.1, 0.2); 
+          transform: scale(@r(0.1, 0.8)); 
           animation: fall @rand(10s, 60s) linear infinite; 
           animation-delay: 0s; 
           } 
           
           @keyframes fall { 
           0% { transform: translateY(-20vh) translateX(@rand(-20vw, 20vw))
-          scale(@r(0.5, 1.2)); opacity: 0; } 
-          50% { opacity: 1; } 
-          100% { transform: translateY(120vh) translateX(@rand(-30vw, 30vw)) scale(@r(0.5, 1.2));
+          scale(@r(0.1, 0.6)); opacity: 0; } 
+          50% { opacity: 0.2; } 
+          100% { transform: translateY(120vh) translateX(@rand(-30vw, 30vw)) scale(@r(0.1, 0.6));
           opacity: 0; } 
         }
       </css-doodle>
@@ -155,18 +155,28 @@
 
         <footer>
             <div class="container footer-content">
-                <p>Pawel Szymczyk</p>
-                <p>pawel.szymczyk@ps-itservices.com</p>
-                <div class="social-media">
-                    <a href="#">
-                        <img src="./assets/github-icon.png" alt="github" />
-                        <span>GitHub</span>
-                    </a>
-                    <a href="#">
-                        <img src="./assets/linkedin-icon.png" alt="linkedin" />
-                        <span>LinkedIn</span>
-                    </a>
+                <div class="footer-content-left">
+                    <h3>Pawel Szymczyk</h3>
+                    <span>
+                        <label>email:</label> 
+                        <br>
+                        <strong>pawel.szymczyk@ps-itservices.com</strong>
+                    </span>
                 </div>
+                <div class="footer-content-right">
+                    <div class="social-media">
+                        <a href="#">
+                            <img src="./assets/github-icon.png" alt="github" />
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#">
+                            <img src="./assets/linkedin-icon.png" alt="linkedin" />
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                
+                
             </div>
         </footer>
     </main>
