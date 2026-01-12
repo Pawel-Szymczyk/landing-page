@@ -12,6 +12,49 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+    <div class="background">
+      <css-doodle>
+        :doodle { 
+          @grid: 7 / 100vmax / inherit; 
+        } 
+        
+        @even { 
+          @shape: clover 5;
+          background: @pick(#475569, #ddd, #1d4ed8); 
+          border-radius: 50%; 
+          opacity: @rand(0.2, 0.35); 
+          transform: scale(@r(0.1, 1.2)); 
+          animation: fall @rand(10s, 60s) linear infinite; 
+          animation-delay: 0s; 
+          } 
+          
+          @keyframes fall { 
+          0% { transform: translateY(-20vh) translateX(@rand(-20vw, 20vw))
+          scale(@r(0.5, 1.2)); opacity: 0; } 
+          50% { opacity: 1; } 
+          100% { transform: translateY(120vh) translateX(@rand(-30vw, 30vw)) scale(@r(0.5, 1.2));
+          opacity: 0; } 
+        }
+
+        @odd { 
+          @shape: clover 3;
+          background: @pick(#475569, #e2e8f0, #1d4ed8); 
+          border-radius: 40%; 
+          opacity: @rand(0.2, 0.35); 
+          transform: scale(@r(0.1, 0.5)); 
+          animation: fall @rand(10s, 60s) linear infinite; 
+          animation-delay: 0s; 
+          } 
+          
+          @keyframes fall { 
+          0% { transform: translateY(-20vh) translateX(@rand(-20vw, 20vw))
+          scale(@r(0.5, 1.2)); opacity: 0; } 
+          50% { opacity: 1; } 
+          100% { transform: translateY(120vh) translateX(@rand(-30vw, 30vw)) scale(@r(0.5, 1.2));
+          opacity: 0; } 
+        }
+      </css-doodle>
+    </div>
     <main>
         <section class="hero">
             <div class="container hero-content">
@@ -49,22 +92,85 @@
             </div>
         </section>
 
-        <section class="dlaczego-ja">
-            <div class="container dlaczego-ja-content">
-                <div class="dlaczego-ja-text">
+        <section class="feature-list">
+            <div class="container feature-list-content">
+                <div class="feature-list-text">
                     <h2>Dlaczego warto ze mna pracowac?</h1>
                     <ul>
-                        <li>Szybka realizacja</li>
-                        <li>Jasna wycena</li>
-                        <li>Responsywne strony</li>
-                        <li>Wsparcie po wdrożeniu</li>
+                        <li>
+                            <img src="./assets/check-icon.png" alt="szybka realizacja" />
+                            <span>Szybka realizacja</span>
+                        </li>
+                        <li>
+                            <img src="./assets/check-icon.png" alt="jasna wycena" />
+                            <span>Jasna wycena</span>
+                        </li>
+                        <li>
+                            <img src="./assets/check-icon.png" alt="responsywne strony" />
+                            <span>Responsywne strony</span>
+                        </li>
+                        <li>
+                            <img src="./assets/check-icon.png" alt="wsparcie po wdrożeniu" />
+                            <span>Wsparcie po wdrożeniu</span>
+                        </li>
                     </ul>
                 </div>
-                <div class="dlaczego-ja-image">
+                <div class="feature-list-image">
 
                 </div>
             </div>
         </section>
+
+        <section class="process">
+            <div class="container process-content">
+                <div class="card">
+                    <img class="card-image" src="./assets/call-icon.png" alt="kontakt i wycena"/>
+                    <h3>Kontakt i wycena</h3>
+                    <p>Skontaktuj sie, ustalamy zakres i podaje jasna wycene.</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/bolt-icon.png" alt="realizacja"/>
+                    <h3>Realizacja</h3>
+                    <p>Tworze strone zgodnie z ustaleniami i projektuje responsywny layout.</p>
+                </div>
+                <div class="card">
+                    <img class="card-image" src="./assets/rocket-icon.png" alt="poprawki i publikacja"/>
+                    <h3>Poprawki i publikacja</h3>
+                    <p>Wprowadzam ewentualne zmiany i publikuje gotowa strone online.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container cta-content">
+                <div class="cta-text">
+                    <h2>Masz strone do poprawy lub potrzebujesz landing page?</h2>
+                    <p><strong>Odezwij sie - odpowiadam tego samego dnia!</strong></p>
+                    <div class="cta-buttons">
+                        <a href="" class="btn btn-secondary">Napisz do mnie</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container footer-content">
+                <p>Pawel Szymczyk</p>
+                <p>pawel.szymczyk@ps-itservices.com</p>
+                <div class="social-media">
+                    <a href="#">
+                        <img src="./assets/github-icon.png" alt="github" />
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#">
+                        <img src="./assets/linkedin-icon.png" alt="linkedin" />
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </main>
+
+    <script src="https://esm.sh/css-doodle/css-doodle.min.js?raw"></script>
 </body>
 </html>
