@@ -1,47 +1,52 @@
-# Hi there 👋
+# Nowoczesne strony i poprawki front-end 🚀
 
-## Nowoczesne strony i poprawki front-end
-
-This is the official landing page where you can **see my work and contact me** if you want a **modern, responsive website**.
-
----
-
-## 🎯 Aim
-
-The purpose of this website is to **showcase my front-end skills** and **give you an idea of what it’s like to work with me**.  
-It demonstrates my approach to layout, responsive design, and clean code.
+Witaj! 👋  
+To jest moja **oficjalna landing page**, gdzie możesz zobaczyć moje umiejętności i **skontaktować się ze mną**, jeśli chcesz stworzyć nowoczesną, responsywną stronę internetową.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🎯 Co znajdziesz na stronie
 
-- HTML  
-- CSS  
-- JavaScript  
-- Optional: WordPress / Blazor (for other projects)
-
----
-
-## 🚀 Live Demo
-
-Check it out here: [Live demo](https://your-link-here)
+- **Hero**: nagłówek z przyciskami do kontaktu i oferty  
+- **Oferta / Services**: 3 karty pokazujące moje główne usługi  
+  - Landing Page  
+  - Poprawki Front-End  
+  - WordPress  
+- **Proces**: jak współpracujemy krok po kroku  
+- **CTA i Footer**: szybki kontakt i linki do social media  
+- **Responsywność**: mobile-first, płynne przewijanie i nowoczesny layout  
 
 ---
 
-## 📂 Features
+## 🛠 Technologie
 
-- Hero section with call-to-action buttons  
-- Responsive **Offer** / Services section  
-- Process and CTA sections  
-- Footer with contact and social links  
-- Smooth scrolling & mobile-first design
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+> Możliwe do rozbudowy o WordPress lub Blazor w kolejnych projektach.
 
 ---
 
-## 💡 Notes
+## 🌐 Zobacz live demo
 
-- Built mobile-first and fully responsive  
-- Designed for small projects, landing pages, and front-end fixes  
-- Easily extendable for future projects (WordPress or Blazor)
+[Kliknij tutaj, aby zobaczyć stronę](https://your-link-here)
+
+---
+
+## 💡 Dlaczego warto ze mną pracować
+
+- Szybka realizacja  
+- Jasna wycena  
+- Responsywne strony  
+- Wsparcie po wdrożeniu  
+
+---
+
+## 📬 Skontaktuj się
+
+Chcesz stronę do poprawy lub nowy landing page?  
+**Odezwij się — odpowiadam tego samego dnia!**  
+[Wyślij email](mailto:pawel.szymczyk@ps-itservices.com)
 
 ---
