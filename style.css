@@ -16,6 +16,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", system-ui, -apple-system, sans-serif;
 }
@@ -28,23 +32,6 @@ body {
   height: 100%;
   z-index: -1;
 }
-
-/* h1 {
-  font-size: 48px;
-  line-height: 56px;
-  font-weight: 700;
-}
-h2 {
-  font-size: 36px;
-  line-height: 44px;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 24px;
-  line-height: 32px;
-  font-weight: 600;
-} */
 
 h1 {
   font-size: 32px;
@@ -88,10 +75,6 @@ p {
   padding: 0 16px;
 }
 
-.hero {
-  /* min-height: 90vh; */
-}
-
 .hero-content,
 .cta-content {
   display: flex;
@@ -122,11 +105,19 @@ p {
 }
 
 .hero-image {
-  border-radius: 16px;
+  border-radius: 30px;
   background-color: var(--background);
   box-shadow: 0px 10px 30px rgb(0 0 0 /0.08);
   width: 100%;
   height: 360px;
+  margin-top: 16px;
+}
+
+.hero-image img {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+  border-radius: 30px;
 }
 
 .hero-buttons,
@@ -164,7 +155,11 @@ a {
   text-decoration: none;
 }
 
-.oferta-content,
+.highlight {
+  color: var(--primary);
+}
+
+.offer-content,
 .process-content,
 .footer-content {
   display: flex;
@@ -230,11 +225,18 @@ a {
 }
 
 .feature-list-image {
-  border-radius: 16px;
+  border-radius: 30px;
   background-color: var(--background);
   box-shadow: 0px 10px 30px rgb(0 0 0 /0.08);
   width: 100%;
   height: 360px;
+}
+
+.feature-list-image img {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+  border-radius: 30px;
 }
 
 .cta {
@@ -252,7 +254,6 @@ a {
 
 footer {
   background-color: var(--text-dark);
-  /* padding: 32px 24px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -328,6 +329,7 @@ label {
 
   .hero-image {
     order: 2;
+    margin-top: 0;
   }
 
   .hero-buttons {
@@ -345,13 +347,13 @@ label {
     height: 420px;
   }
 
-  .oferta-content,
+  .offer-content,
   .process-content {
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .oferta-content .card,
+  .offer-content .card,
   .process-content .card {
     flex: 1 1 calc(50% - 10px);
   }
@@ -363,7 +365,7 @@ label {
   }
 
   .hero,
-  .oferta,
+  .offer,
   .feature-list,
   .process {
     display: flex;
@@ -433,7 +435,7 @@ label {
     height: 480px;
   }
 
-  .oferta,
+  .offer,
   .process {
     min-height: 30dvh;
     display: flex;
@@ -441,7 +443,7 @@ label {
     align-items: center;
   }
 
-  .oferta-content .card,
+  .offer-content .card,
   .process-content .card {
     flex: 1 1 calc(33.333% - 10px);
   }
