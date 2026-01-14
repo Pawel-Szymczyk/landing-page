@@ -61,14 +61,27 @@
       </css-doodle>
     </div>
     <main>
+
+        <div class="lang-switch" role="group" aria-label="Language switch">
+            <button data-lang="pl" aria-label="Polski">PL</button>
+            <button data-lang="en" aria-label="English">EN</button>
+        </div>
+
         <section class="hero">
             <div class="container hero-content">
                 <div class="hero-text">
-                    <h1>Nowoczesne strony i  <span class="highlight">poprawki front-end</span></h1>
-                    <p>Pomagam w tworzeniu <span class="highlight">landing page</span>, poprawkach HTML/CSS/JS oraz stron WordPress</p>
+                     <h1>
+                        <span data-i18n="hero_title"></span>
+                        <span class="highlight" data-i18n="hero_title_highlight"></span>
+                    </h1>
+                     <p>
+                        <span data-i18n="hero_desc_part_a"></span>
+                        <span class="highlight" data-i18n="hero_desc_highlight"></span>
+                        <span data-i18n="hero_desc_part_b"></span>
+                     </p>
                     <div class="hero-buttons">
-                        <a href="mailto:pawel.szymczyk@ps-itservices.com" class="btn btn-primary">Skontaktuj się</a>
-                        <a href="#offer" class="btn btn-secondary">Zobacz ofertę</a>
+                         <a href="mailto:pawel.szymczyk@ps-itservices.com" class="btn btn-primary" data-i18n="btn_contact"></a>
+                         <a href="#offer" class="btn btn-secondary" data-i18n="btn_offer"></a>
                     </div>
                 </div>
                 <div class="hero-image">
@@ -81,18 +94,18 @@
             <div class="container offer-content">
                 <div class="card">
                     <img class="card-image" src="./assets/computer-icon.png" alt="landing page"/>
-                    <h3>Landing Page</h3>
-                    <p>Tworzę nowoczesne, responsywne landing page'e, które przyciągają uwagę i zwiększają konwersję.</p>
+                    <h3 data-i18n="offer_landing_page_title"></h3>
+                    <p data-i18n="offer_landing_page_desc"></p>
                 </div>
                 <div class="card">
                     <img class="card-image" src="./assets/code-icon.png" alt="poprawki front-end"/>
-                    <h3>Poprawki Front-End</h3>
-                    <p>Szybko i skutecznie naprawiam błędy HTML, CSS i JavaScript, dbając o wydajność i wygląd strony.</p>
+                    <h3 data-i18n="offer_fixes_title"></h3>
+                    <p data-i18n="offer_fixes_desc"></p>
                 </div>
                 <div class="card">
                     <img class="card-image" src="./assets/learning-icon.png" alt="wordpress"/>
-                    <h3>WordPress</h3>
-                    <p>Tworzę i modyfikuję strony WordPress, instaluję motywy i wtyczki oraz dopasowuję funkcjonalności do potrzeb klienta.</p>
+                    <h3 data-i18n="offer_wp_title"></h3>
+                    <p data-i18n="offer_wp_desc"></p>
                 </div>
             </div>
         </section>
@@ -100,23 +113,23 @@
         <section class="feature-list">
             <div class="container feature-list-content">
                 <div class="feature-list-text">
-                    <h2>Dlaczego warto ze mną pracować?</h1>
+                    <h2 data-i18n="feature_title"></h1>
                     <ul>
                         <li>
                             <img src="./assets/check-icon.png" alt="szybka realizacja" />
-                            <span>Szybka realizacja</span>
+                            <span data-i18n="feature_list_item_fast"></span>
                         </li>
                         <li>
                             <img src="./assets/check-icon.png" alt="jasna wycena" />
-                            <span>Jasna wycena</span>
+                            <span data-i18n="feature_list_item_price"></span>
                         </li>
                         <li>
                             <img src="./assets/check-icon.png" alt="responsywne strony" />
-                            <span>Responsywne strony</span>
+                            <span data-i18n="feature_list_item_responsive"></span>
                         </li>
                         <li>
                             <img src="./assets/check-icon.png" alt="wsparcie po wdrożeniu" />
-                            <span>Wsparcie po wdrożeniu</span>
+                            <span data-i18n="feature_list_item_support"></span>
                         </li>
                     </ul>
                 </div>
@@ -130,18 +143,18 @@
             <div class="container process-content">
                 <div class="card">
                     <img class="card-image" src="./assets/call-icon.png" alt="kontakt i wycena"/>
-                    <h3>Kontakt i wycena</h3>
-                    <p>Skontaktuj się — ustalamy zakres i podaję jasną wycenę.</p>
+                    <h3 data-i18n="process_contact_title"></h3>
+                    <p data-i18n="process_contact_desc"></p>
                 </div>
                 <div class="card">
                     <img class="card-image" src="./assets/bolt-icon.png" alt="realizacja"/>
-                    <h3>Realizacja</h3>
-                    <p>Tworzę stronę zgodnie z ustaleniami i projektuję responsywny layout.</p>
+                    <h3 data-i18n="process_build_title"></h3>
+                    <p data-i18n="process_build_desc"></p>
                 </div>
                 <div class="card">
                     <img class="card-image" src="./assets/rocket-icon.png" alt="poprawki i publikacja"/>
-                    <h3>Poprawki i publikacja</h3>
-                    <p>Wprowadzam ewentualne zmiany i publikuję gotową stronę online.</p>
+                    <h3 data-i18n="process_publish_title"></h3>
+                    <p data-i18n="process_publish_desc"></p>
                 </div>
             </div>
         </section>
@@ -149,10 +162,10 @@
         <section class="cta">
             <div class="container cta-content">
                 <div class="cta-text">
-                    <h2>Masz strone do poprawy lub potrzebujesz landing page?</h2>
-                    <p><strong>Odezwij się — odpowiadam tego samego dnia!</strong></p>
+                    <h2 data-i18n="cta_title"></h2>
+                    <p><strong data-i18n="cta_desc"></strong></p>
                     <div class="cta-buttons">
-                        <a href="mailto:pawel.szymczyk@ps-itservices.com?subject=Zapytanie o stronę" class="btn btn-secondary">Napisz do mnie</a>
+                        <a href="mailto:pawel.szymczyk@ps-itservices.com?subject=Zapytanie o stronę" class="btn btn-secondary" data-i18n="btn_cta"></a>
                     </div>
                 </div>
             </div>
@@ -186,6 +199,7 @@
         </footer>
     </main>
 
+    <script type="module" src="./scripts/main.js" defer></script>
     <script src="https://esm.sh/css-doodle/css-doodle.min.js?raw"></script>
 </body>
 </html>

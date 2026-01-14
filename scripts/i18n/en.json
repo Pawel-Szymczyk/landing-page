@@ -1,0 +1,35 @@
+{
+  "hero_title": "Modern websites and",
+  "hero_title_highlight": "front-end improvements",
+
+  "hero_desc_part_a": "I help build",
+  "hero_desc_part_b": ", fix HTML/CSS/JS issues, and create WordPress websites.",
+  "hero_desc_highlight": "landing pages",
+
+  "btn_contact": "Contact me",
+  "btn_offer": "View services",
+  "btn_cta": "Get in touch",
+
+  "offer_landing_page_title": "Landing Page",
+  "offer_landing_page_desc": "I create modern, responsive landing pages designed to attract attention and increase conversions.",
+  "offer_fixes_title": "Front-End Fixes",
+  "offer_fixes_desc": "I quickly and efficiently fix HTML, CSS, and JavaScript issues, focusing on performance and clean design.",
+  "offer_wp_title": "WordPress",
+  "offer_wp_desc": "I build and customize WordPress websites, install themes and plugins, and tailor functionality to your needs.",
+
+  "feature_title": "Why work with me?",
+  "feature_list_item_fast": "Fast execution",
+  "feature_list_item_price": "Clear pricing",
+  "feature_list_item_responsive": "Fully responsive websites",
+  "feature_list_item_support": "Post-launch support",
+
+  "process_contact_title": "Contact & pricing",
+  "process_contact_desc": "Contact me — we define the scope and I provide a clear quote.",
+  "process_build_title": "Development",
+  "process_build_desc": "I build the website according to our agreement and design a responsive layout.",
+  "process_publish_title": "Revisions & launch",
+  "process_publish_desc": "I apply final adjustments and publish the finished website online.",
+
+  "cta_title": "Need a website update or a landing page?",
+  "cta_desc": "Get in touch — I usually reply the same day."
+}
