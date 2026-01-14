@@ -3,15 +3,15 @@
   "hero_title_highlight": "poprawki front-end",
 
   "hero_desc_part_a": "Pomagam w tworzeniu",
-  "hero_desc_part_b": ", poprawkach HTML/CSS/JS oraz stron WordPress",
-  "hero_desc_highlight": "landing page",
+  "hero_desc_part_b": "poprawkach HTML/CSS/JS oraz stron WordPress",
+  "hero_desc_highlight": "landing page,",
 
   "btn_contact": "Skontaktuj się",
   "btn_offer": "Zobacz ofertę",
   "btn_cta": "Napisz do mnie",
 
   "offer_landing_page_title": "Landing Page",
-  "offer_landing_page_desc": "Tworzę nowoczesne, responsywne landing page'e, które przyciągają uwagę i zwiększają konwersję.",
+  "offer_landing_page_desc": "Tworzę nowoczesne, responsywne landing page, które przyciągają uwagę i zwiększają konwersję.",
   "offer_fixes_title": "Poprawki Front-End",
   "offer_fixes_desc": "Szybko i skutecznie naprawiam błędy HTML, CSS i JavaScript, dbając o wydajność i wygląd strony.",
   "offer_wp_title": "WordPress",
