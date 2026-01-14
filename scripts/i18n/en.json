@@ -1,9 +1,11 @@
 {
-  "hero_title": "Modern websites and",
-  "hero_title_highlight": "front-end improvements",
+  "hero_title_highlight": "Modern",
+  "hero_title": "websites and",
+  "hero_title_highlight_2": "improvements",
+  "hero_title_2": "front-end",
 
-  "hero_desc_part_a": "I help build",
-  "hero_desc_part_b": "fix HTML/CSS/JS issues, and create WordPress websites.",
+  "hero_desc_part_a": "I am building",
+  "hero_desc_part_b": "fixing HTML/CSS/JS issues, and creating WordPress websites.",
   "hero_desc_highlight": "landing pages, ",
 
   "btn_contact": "Contact me",
