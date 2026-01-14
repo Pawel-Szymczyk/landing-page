@@ -3,7 +3,7 @@ const supported = ["pl", "en"];
 
 async function loadLanguage(lang) {
   try {
-    const res = await fetch(`../scripts/i18n/${lang}.json`);
+    const res = await fetch(`./scripts/i18n/${lang}.json`);
     if (!res.ok) throw new Error(`Cannot load language file: ${lang}.json`);
     const translations = await res.json();
 
