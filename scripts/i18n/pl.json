@@ -2,8 +2,8 @@
   "hero_title": "Nowoczesne strony i",
   "hero_title_highlight": "poprawki front-end",
 
-  "hero_desc_part_a": "Pomagam w tworzeniu",
-  "hero_desc_part_b": "poprawkach HTML/CSS/JS oraz stron WordPress",
+  "hero_desc_part_a": "Tworzę",
+  "hero_desc_part_b": "koryguję HTML/CSS/JS oraz strony WordPress",
   "hero_desc_highlight": "landing page,",
 
   "btn_contact": "Skontaktuj się",
@@ -15,7 +15,7 @@
   "offer_fixes_title": "Poprawki Front-End",
   "offer_fixes_desc": "Szybko i skutecznie naprawiam błędy HTML, CSS i JavaScript, dbając o wydajność i wygląd strony.",
   "offer_wp_title": "WordPress",
-  "offer_wp_desc": "Tworzę i modyfikuję strony WordPress, instaluję motywy i wtyczki oraz dopasowuję funkcjonalności do potrzeb klienta.",
+  "offer_wp_desc": "Tworzę i modyfikuję strony WordPress. Instaluję motywy i wtyczki oraz dopasowuję funkcjonalności do potrzeb klienta.",
 
   "feature_title": "Dlaczego warto ze mną pracować?",
   "feature_list_item_fast": "Szybka realizacja",
@@ -24,12 +24,12 @@
   "feature_list_item_support": "Wsparcie po wdrożeniu",
 
   "process_contact_title": "Kontakt i wycena",
-  "process_contact_desc": "Skontaktuj się — ustalamy zakres i podaję jasną wycenę.",
+  "process_contact_desc": "Skontaktuj się, ustalimy zakres prac a ja dokanam przejrzystej wyceny.",
   "process_build_title": "Realizacja",
-  "process_build_desc": "Tworzę stronę zgodnie z ustaleniami i projektuję responsywny layout.",
+  "process_build_desc": "Tworzę stronę zgodną z wymaganiami klienta i projektuję responsywny układ strony.",
   "process_publish_title": "Poprawki i publikacja",
-  "process_publish_desc": "Wprowadzam ewentualne zmiany i publikuję gotową stronę online.",
+  "process_publish_desc": "Wprowadzam wymagane zmiany i publikuję gotową stronę online.",
 
-  "cta_title": "Masz strone do poprawy lub potrzebujesz landing page?",
-  "cta_desc": "Odezwij się — odpowiadam tego samego dnia!"
+  "cta_title": "Masz stronę do poprawy lub potrzebujesz landing page?",
+  "cta_desc": "Masz pytanie, napisz."
 }
