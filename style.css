@@ -189,6 +189,7 @@ a {
 
 .highlight {
   color: var(--primary);
+  font-size: 18px;
 }
 
 .offer-content,
